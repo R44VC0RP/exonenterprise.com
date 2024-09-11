@@ -1,0 +1,22 @@
+.nav-links-links {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-links-link {
+  font-family: "Poppins";
+}
+.nav-links-link1 {
+  font-family: "Poppins";
+}
+.nav-links-link2 {
+  font-family: "Poppins";
+}
+@media(max-width: 767px) {
+  .nav-links-links {
+    display: none;
+  }
+}
